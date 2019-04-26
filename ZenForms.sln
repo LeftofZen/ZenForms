@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenForms.Forms", "ZenForms.Forms\ZenForms.Forms.csproj", "{DBFDC87F-8B29-4ED4-B125-19E4DFD5E539}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C} = {1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenForms.Examples", "ZenFormsExample\ZenForms.Examples.csproj", "{C380381D-F935-4F93-86D7-FFF58006A7B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF7A34B-6D27-4CF2-88EF-E9C47C698120} = {5AF7A34B-6D27-4CF2-88EF-E9C47C698120}
+		{BA1E386C-4467-4BE3-A573-FEC86821C009} = {BA1E386C-4467-4BE3-A573-FEC86821C009}
+		{DBFDC87F-8B29-4ED4-B125-19E4DFD5E539} = {DBFDC87F-8B29-4ED4-B125-19E4DFD5E539}
+		{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C} = {1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenForms.Core", "ZenForms.Core\ZenForms.Core.csproj", "{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenForms.Controls", "ZenForms.Controls\ZenForms.Controls.csproj", "{BA1E386C-4467-4BE3-A573-FEC86821C009}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C} = {1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenForms.Themes", "ZenForms.Themes\ZenForms.Themes.csproj", "{5AF7A34B-6D27-4CF2-88EF-E9C47C698120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFDC87F-8B29-4ED4-B125-19E4DFD5E539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFDC87F-8B29-4ED4-B125-19E4DFD5E539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFDC87F-8B29-4ED4-B125-19E4DFD5E539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFDC87F-8B29-4ED4-B125-19E4DFD5E539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C380381D-F935-4F93-86D7-FFF58006A7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C380381D-F935-4F93-86D7-FFF58006A7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C380381D-F935-4F93-86D7-FFF58006A7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C380381D-F935-4F93-86D7-FFF58006A7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1967A8A9-3B85-4D3D-A1A0-DC0DE52C4A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1E386C-4467-4BE3-A573-FEC86821C009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1E386C-4467-4BE3-A573-FEC86821C009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1E386C-4467-4BE3-A573-FEC86821C009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1E386C-4467-4BE3-A573-FEC86821C009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF7A34B-6D27-4CF2-88EF-E9C47C698120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF7A34B-6D27-4CF2-88EF-E9C47C698120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF7A34B-6D27-4CF2-88EF-E9C47C698120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF7A34B-6D27-4CF2-88EF-E9C47C698120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFBE0A1B-5B83-41BC-959A-B1B40AE4E56B}
+	EndGlobalSection
+EndGlobal
